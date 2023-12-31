@@ -3,7 +3,7 @@
   hosts: all
   become: true
   vars:
-    nexus_url: http://ec2-18-143-192-224.ap-southeast-1.compute.amazonaws.com:8081/repository
+    nexus_url: http://ec2-18-132-46-112.eu-west-2.compute.amazonaws.com:8081/repository
     repository_type: java-maven-war-appD-release
     group_id: com%2Fmycompany%2Fapp
     artifact_id: hello-world-war
